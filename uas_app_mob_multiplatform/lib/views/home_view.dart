@@ -27,7 +27,7 @@ class _HomeViewState extends State<HomeView> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Tryo Asnafi"),
+        title: Text("Muhammad Imam Setiawan"),
       ),
       body: FutureBuilder(
         future: news,
