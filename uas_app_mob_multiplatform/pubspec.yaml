@@ -1,5 +1,5 @@
-name: uas_app_mob_multiplatform
-description: A new Flutter project.
+name: uas_appmob_multiplatform
+description: Project Ujian Akhir Semester Mata Kuliah Pengembangan Aplikasi Mobile Multiplatform
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  http: ^0.13.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

@@ -1,26 +1,17 @@
-import 'dart:math';
-
 class News {
-  final String title;
-  final String subtitle;
   final String author;
-  final String seen;
-  final String image;
+  final String title;
+  final String imageURL;
+  final String subtitle;
 
-  News({
-    this.author,
-    this.image,
-    this.seen,
-    this.subtitle,
-    this.title,
-  });
+  News({this.author, this.title, this.imageURL, this.subtitle});
 
-  factory News.fromJson(Map<String, dynamic> json) {
+  factory News.fromJSON(Map<String, dynamic> json) {
     return News(
-        author: json['author'] ?? "",
-        image: json['image'] ?? "",
-        seen: (Random().nextInt(100) + 1).toString() + 'k',
-        subtitle: json['subtitle'] ?? "",
-        title: json['title'] ?? "");
+      author: json["author"],
+      title: json['title'],
+      imageURL: json['image'],
+      subtitle: json['subtitle'],
+    );
   }
 }
