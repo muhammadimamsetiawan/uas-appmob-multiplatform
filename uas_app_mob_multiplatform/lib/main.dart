@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "UAS Flutter - Muhammad Imam Setiawan",
+      title: "UAS Flutter - MUHAMMAD IMAM SETIAWAN",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
